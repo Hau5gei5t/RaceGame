@@ -1,0 +1,10 @@
+C:\Users\Artem\source\repos\RaceGame\RaceGame\bin\Debug\RaceGame.exe.config
+C:\Users\Artem\source\repos\RaceGame\RaceGame\bin\Debug\RaceGame.exe
+C:\Users\Artem\source\repos\RaceGame\RaceGame\bin\Debug\RaceGame.pdb
+C:\Users\Artem\source\repos\RaceGame\RaceGame\obj\Debug\RaceGame.csproj.AssemblyReference.cache
+C:\Users\Artem\source\repos\RaceGame\RaceGame\obj\Debug\RaceGame.Form1.resources
+C:\Users\Artem\source\repos\RaceGame\RaceGame\obj\Debug\RaceGame.Properties.Resources.resources
+C:\Users\Artem\source\repos\RaceGame\RaceGame\obj\Debug\RaceGame.csproj.GenerateResource.cache
+C:\Users\Artem\source\repos\RaceGame\RaceGame\obj\Debug\RaceGame.csproj.CoreCompileInputs.cache
+C:\Users\Artem\source\repos\RaceGame\RaceGame\obj\Debug\RaceGame.exe
+C:\Users\Artem\source\repos\RaceGame\RaceGame\obj\Debug\RaceGame.pdb
