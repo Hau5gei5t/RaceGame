@@ -31,8 +31,6 @@ namespace RaceGame
         {
             this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.Distance = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.Trophy = new System.Windows.Forms.PictureBox();
             this.Player = new System.Windows.Forms.PictureBox();
@@ -41,6 +39,8 @@ namespace RaceGame
             this.AI1 = new System.Windows.Forms.PictureBox();
             this.RoadTrack2 = new System.Windows.Forms.PictureBox();
             this.RoadTrack1 = new System.Windows.Forms.PictureBox();
+            this.Distance = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -63,27 +63,6 @@ namespace RaceGame
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(397, 648);
             this.panel1.TabIndex = 0;
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(241, 595);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(140, 44);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Старт";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.Button1_Click);
-            // 
-            // Distance
-            // 
-            this.Distance.AutoSize = true;
-            this.Distance.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Distance.Location = new System.Drawing.Point(6, 602);
-            this.Distance.Name = "Distance";
-            this.Distance.Size = new System.Drawing.Size(229, 31);
-            this.Distance.TabIndex = 1;
-            this.Distance.Text = "Расстояние : 00";
             // 
             // panel2
             // 
@@ -176,6 +155,27 @@ namespace RaceGame
             this.RoadTrack1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.RoadTrack1.TabIndex = 2;
             this.RoadTrack1.TabStop = false;
+            // 
+            // Distance
+            // 
+            this.Distance.AutoSize = true;
+            this.Distance.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Distance.Location = new System.Drawing.Point(6, 602);
+            this.Distance.Name = "Distance";
+            this.Distance.Size = new System.Drawing.Size(229, 31);
+            this.Distance.TabIndex = 1;
+            this.Distance.Text = "Расстояние : 00";
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1.Location = new System.Drawing.Point(217, 595);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(168, 44);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Рестарт";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // timer1
             // 
